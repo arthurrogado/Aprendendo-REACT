@@ -1,0 +1,16 @@
+.ListaProdutos thead {
+    background-color: #1a5688;
+    color: white;
+}
+
+.ListaProdutos .Par {
+    background: #ddd;
+}
+.ListaProdutos .Impar {
+    background: #7c7c7c;
+    color: white;
+}
+
+.ListaProdutos table {
+    width: 100%;
+}

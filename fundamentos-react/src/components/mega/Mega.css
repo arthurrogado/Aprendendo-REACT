@@ -1,0 +1,66 @@
+*{
+    box-sizing: content-box;
+}
+
+.tituloNumeros {
+    border: 1px solid green;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.8rem;
+    color: white;
+    background: green;
+}
+
+#numeros {
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #cbffd4;
+}
+
+#numeros .numero {
+    border: 3px solid cadetblue;
+    color: cadetblue;
+    background: #fff;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+
+    transition: all 0.2s;
+}
+
+#numeros .numero:hover {
+    cursor: initial;
+    border-radius: 50%;
+    border: #fff 3px solid;
+    color: #fff;
+    background: cadetblue;
+}
+
+
+.inputGroup {
+    border: 3px solid green;
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    background: #cbffd4;
+    color: green;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.inputGroup input {
+    width: 100%;
+    margin: 0 10px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
